@@ -1,0 +1,10 @@
+category: Xfce
+requires: cygwin glib2 gtk2-x11 libX11_6 libexo03 libintl8 libthunar1 libxfce4mcs libxfce4util libxfcegui4 pango xfce-mcs-manager xfce4-panel
+sdesc: "Xfce4 desktop manager"
+ldesc: "Xfdesktop is a desktop manager for the Xfce Desktop Environment. 
+Desktop in this respect means the root window. The manager handles the 
+following tasks:
+- background image / color
+- root menu, window list
+- minimized app icons
+- file icons on the desktop (using Thunar libs)"
