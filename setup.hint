@@ -1,5 +1,5 @@
-category: Xfce
-requires: cygwin glib2 gtk2-x11 libX11_6 libexo03 libintl8 libthunar1 libxfce4mcs libxfce4util libxfcegui4 pango xfce-mcs-manager xfce4-panel
+category: X11
+requires: cygwin glib2 gtk2-x11 libcairo2 libdbus-glib_1_2 libdbus1_3 libexo03 libglade2 libintl8 libthunar1 libwnck1_22 libX11_6 libxfce4util libxfcegui4 libxfconf0_0 pango xfce4-panel
 sdesc: "Xfce4 desktop manager"
 ldesc: "Xfdesktop is a desktop manager for the Xfce Desktop Environment. 
 Desktop in this respect means the root window. The manager handles the 
