@@ -12,21 +12,22 @@ Runtime requirements:
   cygwin-1.5.25-15
   libcairo2-1.8.6-1
   libdbus-glib_1_2-0.78-1
-  libdbus1_3-1.2.3-1
-  libexo0.3_0-0.3.92-1
-  libgdk_pixbuf2.0_0-2.14.6-1
+  libdbus1_3-1.2.4-1
+  libexo0.3_0-0.3.99.1-1
+  libgdk_pixbuf2.0_0-2.14.7-2
   libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.6-1
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
   libintl8-0.17-1
   libpango1.0_0-1.22.4-1
-  libthunar1_2-0.9.92-1
+  libthunar-vfs1_2-0.9.99.1-1
+  libthunarx1_2-0.9.99.1-1
   libwnck1_22-2.22.3-1
-  libX11_6-1.1.5-1
-  libxfce4util4-4.5.92-1
-  libxfcegui4_4-4.5.92-1
-  libxfconf0_2-4.5.92-1
-  xfce4-panel-4.5.92-1
+  libX11_6-1.1.5-2
+  libxfce4util4-4.5.99.1-1
+  libxfcegui4_4-4.5.99.1-1
+  libxfconf0_2-4.5.99.1-1
+  xfce4-panel-4.5.99.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -41,7 +42,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.92-1
+  xfce4-dev-tools-4.5.99.1-1
 
 Canonical website:
   http://www.xfce.org/
@@ -52,15 +53,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfdesktop-4.5.92-X-src.tar.bz2
+  unpack xfdesktop-4.5.99.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfdesktop-4.5.92-X.cygport all
+  cygport ./xfdesktop-4.5.99.1-X.cygport all
 
 This will create:
-  /usr/src/xfdesktop-4.5.92-X-src.tar.bz2
-  /usr/src/xfdesktop-4.5.92-X.tar.bz2
+  /usr/src/xfdesktop-4.5.99.1-X-src.tar.bz2
+  /usr/src/xfdesktop-4.5.99.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -94,13 +95,13 @@ Files included in the binary package:
   /usr/share/desktop-directories/xfce-screensavers.directory
   /usr/share/desktop-directories/xfce-settings.directory
   /usr/share/desktop-directories/xfce-system.directory
-  /usr/share/doc/xfdesktop-4.5.92/AUTHORS
-  /usr/share/doc/xfdesktop-4.5.92/COPYING
-  /usr/share/doc/xfdesktop-4.5.92/ChangeLog
-  /usr/share/doc/xfdesktop-4.5.92/INSTALL
-  /usr/share/doc/xfdesktop-4.5.92/NEWS
-  /usr/share/doc/xfdesktop-4.5.92/README
-  /usr/share/doc/xfdesktop-4.5.92/TODO
+  /usr/share/doc/xfdesktop-4.5.99.1/AUTHORS
+  /usr/share/doc/xfdesktop-4.5.99.1/COPYING
+  /usr/share/doc/xfdesktop-4.5.99.1/ChangeLog
+  /usr/share/doc/xfdesktop-4.5.99.1/INSTALL
+  /usr/share/doc/xfdesktop-4.5.99.1/NEWS
+  /usr/share/doc/xfdesktop-4.5.99.1/README
+  /usr/share/doc/xfdesktop-4.5.99.1/TODO
   /usr/share/icons/hicolor/32x32/apps/xfce4-backdrop.png
   /usr/share/icons/hicolor/32x32/apps/xfce4-menueditor.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-backdrop.png
@@ -199,6 +200,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 4.5.99.1-1 -----
+Version bump for 4.6-rc1.
 
 ----- version 4.5.92-1 -----
 Version bump for 4.6-beta2.
