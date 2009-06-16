@@ -9,40 +9,41 @@ tasks:
 - file icons on the desktop (using Thunar libs)
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libcairo2-1.8.6-1
-  libdbus-glib_1_2-0.80-1
-  libdbus1_3-1.2.12-1
-  libexo0.3_0-0.3.100-1
-  libgdk_pixbuf2.0_0-2.14.7-2
-  libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-2
-  libintl8-0.17-1
-  libpango1.0_0-1.22.4-1
-  libthunar-vfs1_2-1.0.0-1
-  libthunarx1_2-1.0.0-1
-  libwnck1_22-2.24.2-1
-  libX11_6-1.1.5-2
-  libxfce4util4-4.6.0-1
-  libxfcegui4_4-4.6.0-1
-  libxfconf0_2-4.6.0-1
-  xfce4-panel-4.6.0-1
+  cygwin-1.7.0-49
+  libcairo2-1.8.6-10
+  libdbus-glib_1_2-0.80-10
+  libdbus1_3-1.2.14-1
+  libexo0.3_0-0.3.101-1
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libintl8-0.17-11
+  libpango1.0_0-1.24.2-1
+  libthunar-vfs1_2-1.0.1-1
+  libthunarx1_2-1.0.1-1
+  libwnck1_22-2.26.1-1
+  libX11_6-1.2-10
+  libxfce4util4-4.6.1-1
+  libxfcegui4_4-4.6.1-1
+  libxfconf0_2-4.6.1-1
+  xfce4-panel-4.6.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  intltool-0.40.5-1
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  intltool-0.40.6-1
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xfce4-dev-tools-4.6.0-1
+  xfce4-dev-tools-4.6.0-10
 
 Canonical website:
   http://www.xfce.org/
@@ -53,15 +54,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfdesktop-4.6.0-X-src.tar.bz2
+  unpack xfdesktop-4.6.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfdesktop-4.6.0-X.cygport all
+  cygport ./xfdesktop-4.6.1-X.cygport all
 
 This will create:
-  /usr/src/xfdesktop-4.6.0-X-src.tar.bz2
-  /usr/src/xfdesktop-4.6.0-X.tar.bz2
+  /usr/src/xfdesktop-4.6.1-X-src.tar.bz2
+  /usr/src/xfdesktop-4.6.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -95,13 +96,12 @@ Files included in the binary package:
   /usr/share/desktop-directories/xfce-screensavers.directory
   /usr/share/desktop-directories/xfce-settings.directory
   /usr/share/desktop-directories/xfce-system.directory
-  /usr/share/doc/xfdesktop-4.6.0/AUTHORS
-  /usr/share/doc/xfdesktop-4.6.0/COPYING
-  /usr/share/doc/xfdesktop-4.6.0/ChangeLog
-  /usr/share/doc/xfdesktop-4.6.0/INSTALL
-  /usr/share/doc/xfdesktop-4.6.0/NEWS
-  /usr/share/doc/xfdesktop-4.6.0/README
-  /usr/share/doc/xfdesktop-4.6.0/TODO
+  /usr/share/doc/xfdesktop/AUTHORS
+  /usr/share/doc/xfdesktop/COPYING
+  /usr/share/doc/xfdesktop/ChangeLog
+  /usr/share/doc/xfdesktop/NEWS
+  /usr/share/doc/xfdesktop/README
+  /usr/share/doc/xfdesktop/TODO
   /usr/share/icons/hicolor/32x32/apps/xfce4-backdrop.png
   /usr/share/icons/hicolor/32x32/apps/xfce4-menueditor.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-backdrop.png
@@ -201,20 +201,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 4.6.0-1 -----
-Version bump.
-
------ version 4.5.99.1-1 -----
-Version bump for 4.6-rc1.
-
------ version 4.5.92-1 -----
-Version bump for 4.6-beta2.
-
------ version 4.5.91-1 -----
-Version bump for 4.6-beta1.
-
------ version 4.4.1-1 -----
-Initial release of Xfce 4.4 for Cygwin.
+----- version 4.6.1-1 -----
+Initial release of Xfce 4.6 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
