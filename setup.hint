@@ -1,4 +1,4 @@
-category: X11
+category: Xfce
 requires: libgcc1 libglib2.0_0 libgtk2.0_0 libcairo2 libdbus-glib_1_2 libdbus1_3 libexo0.3_0 libglade2.0_0 libintl8 libthunar-vfs1_2 libthunarx1_2 libwnck1_22 libX11_6 libxfce4util4 libxfcegui4_4 libxfconf0_2 libpango1.0_0 xfce4-panel
 sdesc: "Xfce4 desktop manager"
 ldesc: "Xfdesktop is a desktop manager for the Xfce Desktop Environment. 
