@@ -1,0 +1,14 @@
+inherit xfce4
+
+NAME="xfdesktop"
+VERSION=4.10.2
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Xfce4 desktop manager"
+DESCRIPTION="Xfdesktop is a desktop manager for the Xfce Desktop Environment.
+Desktop in this respect means the root window. The manager handles the
+following tasks:
+- background image / color
+- root menu, window list
+- minimized app icons
+- file icons on the desktop (using Thunar libs)"
