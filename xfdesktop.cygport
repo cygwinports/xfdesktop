@@ -12,3 +12,5 @@ following tasks:
 - root menu, window list
 - minimized app icons
 - file icons on the desktop (using Thunar libs)"
+
+PATCH_URI="4.10.2-no-win32.patch"

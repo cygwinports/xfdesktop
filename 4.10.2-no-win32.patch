@@ -1,0 +1,20 @@
+--- origsrc/xfdesktop-4.10.2/src/xfdesktop-file-utils.c	2013-03-02 10:37:34.000000000 -0600
++++ src/xfdesktop-4.10.2/src/xfdesktop-file-utils.c	2013-07-25 05:11:54.892511400 -0500
+@@ -606,7 +606,7 @@ xfdesktop_file_utils_change_working_dire
+   old_directory = g_malloc0(sizeof(gchar) * MAXPATHLEN);
+ 
+   /* try to determine the current working directory */
+-#ifdef G_PLATFORM_WIN32
++#ifdef G_OS_WIN32
+   if(!_getcwd(old_directory, MAXPATHLEN))
+ #else
+   if(!getcwd (old_directory, MAXPATHLEN))
+@@ -618,7 +618,7 @@ xfdesktop_file_utils_change_working_dire
+   }
+ 
+   /* try switching to the new working directory */
+-#ifdef G_PLATFORM_WIN32
++#ifdef G_OS_WIN32
+   if(_chdir (new_directory))
+ #else
+   if(chdir (new_directory))
