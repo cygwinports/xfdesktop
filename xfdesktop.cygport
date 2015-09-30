@@ -13,4 +13,7 @@ following tasks:
 - minimized app icons
 - file icons on the desktop (using Thunar libs)"
 
-PATCH_URI="4.10.2-no-win32.patch"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/xfdesktop.git/plain/xfdesktop-4.12.3-desktop-redraw.patch
+	4.10.2-no-win32.patch
+"
