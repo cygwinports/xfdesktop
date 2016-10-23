@@ -1,0 +1,20 @@
+--- origsrc/xfdesktop-4.12.3/common/xfdesktop-thumbnailer.c	2015-04-12 11:14:23.000000000 -0500
++++ src/xfdesktop-4.12.3/common/xfdesktop-thumbnailer.c	2015-10-11 01:55:36.632632400 -0500
+@@ -548,7 +548,7 @@ xfdesktop_thumbnailer_thumbnail_ready_db
+             filename = g_strconcat(f_uri_checksum, ".png", NULL);
+ 
+             /* build and check if the thumbnail is in the new location */
+-            thumbnail_location = g_build_path("/", g_get_user_cache_dir(),
++            thumbnail_location = g_build_path(g_get_user_cache_dir(),
+                                               "thumbnails", thumbnail_flavor,
+                                               filename, NULL);
+ 
+@@ -556,7 +556,7 @@ xfdesktop_thumbnailer_thumbnail_ready_db
+                 /* Fallback to old version */
+                 g_free(thumbnail_location);
+ 
+-                thumbnail_location = g_build_path("/", g_get_home_dir(),
++                thumbnail_location = g_build_path(g_get_home_dir(),
+                                                   ".thumbnails", thumbnail_flavor,
+                                                   filename, NULL);
+             }
